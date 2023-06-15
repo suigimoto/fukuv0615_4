@@ -12,7 +12,7 @@ namespace fukuv0615_4
 {
     public partial class Form1 : Form
     {
-        int ans = rand.Next(0, 100);
+        int ans = rand.Next(0, 101);
         static Random rand = new Random();
         int count = 0;
         int guess;
